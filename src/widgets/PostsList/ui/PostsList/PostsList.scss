@@ -1,0 +1,12 @@
+.posts__wrapper {
+    background: var(--lightGray);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.posts__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}

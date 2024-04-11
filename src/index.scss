@@ -1,0 +1,21 @@
+@import-normalize;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --darkGray: rgb(77, 75, 75);
+  --lightGray: rgb(190, 189, 189);
+}
+
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+}
+
+#root {
+  transition:all 0.2s ease-in-out;
+}
